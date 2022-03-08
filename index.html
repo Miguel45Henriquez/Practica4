@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae con CSS</title>
+
+    <style>
+        body{
+            background-color: #1C658C;
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+        #header{
+            background-color: #1C658C;
+            height: 425px;
+        }
+        .perf{
+            float: left;
+            width: 30%;
+            height: 400px;
+        }
+        .datosP{
+            float: right;
+            width: 70%;
+            height: 400px;
+        }
+        img{
+            width: 300px; height: 350px;
+        }
+        #sidebar{
+            float: left;
+            width: 20%;
+            height: 450px;
+            background-color: #398AB9;
+            color: #EEEEEE;
+        }
+        li>a{
+            color: #EEEEEE;
+        }
+        #section{
+            float: right;
+            background-color: #D8D2CB;
+            height: 450px;
+            width: 80%;
+        }
+        #footer{
+            clear: both;
+            background-color: #EEEEEE;
+            height: 330px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="header">          
+         <div class="perf"><img src="perfil.jpeg"> </td> </div>  
+         <div class="datosP">              
+            <table>  
+            <tr>
+              <td ><h1>Miguel Henriquez</h1></td>
+            </tr>
+            <tr>
+                <td ><h2>Estudiante Universitario</h2></td>
+            </tr>
+            <tr>
+                <td  ><h2>Departamento de Ingenieria y Arquitectura</h2></td>
+            </tr>
+            <tr>
+                <td ><h2>Universidad de El Salvador, Facultad Multidicilplinaria Oriental</h2></td>
+            </tr>
+            <tr>
+                <td ><h3>Ing. de <a href="https://www.caracteristicas.co/sistema-informatico/">Sistemas Informaticos</a>, 2022</h3></td>
+            </tr>
+            </table>
+         </div>   
+    </div>
+    <div id="container">
+        <div id="sidebar">
+            <ul>
+                <li> <a href="https://www.netec.com/que-es-programacion">Programacion</a></li>
+                <li><a href="https://www.significados.com/futbol/#:~:text=Qu%C3%A9%20es%20F%C3%BAtbol%3A,contrario%20y%20anotar%20un%20gol.">Futbol</a></li>
+                <li><a href="https://www.significados.com/musica/">Musica</a></li>
+                <li><a href="https://www.xataka.com/basics/mejores-juegos-para-android-seleccion-editores-xataka">juegos</a></li>
+            </ul>
+        </div>
+        <div id="section">
+            <div class="section1">
+                <hr>
+                <p>Graduado del Instituto Nacional de Santa Elena, bachillerato tecnico vocacional opcion contaduria.<a href="https://www.facebook.com/profile.php?id=100051425506881"> Mi Perfil</a>, describe perfectamente mis intereses</p>
+                <hr>
+                <p>Este es<a href="https://github.com/Miguel45Henriquez"> mi sitio personal</a></p>
+                <hr>
+            </div>
+            <div class="section2">
+            <p>las siguientes son <em>citas</em> de mis favoritas</p>
+            <br>
+            <cite>Stephen Hawking</cite>
+            <blockquote cite="https://www.nationalgeographic.com.es/ciencia/actualidad/frases-celebres-que-nos-regalo-stephen-hawking_12505">
+                Las personas tranquilas y silenciosas son las que tienen las mentes mas fuertes y ruidosas
+            </blockquote>
+            <br>
+            <cite>Martin Luther King</cite>
+            <blockquote cite="https://www.sport.es/es/noticias/fuera-de-juego/top-10-las-mejores-frases-vida-martin-luther-king-6734400#:~:text=Frases%20c%C3%A9lebres%20de%20Martin%20Luther,solo%20se%20mantiene%20con%20violencia%22.">
+                Si supiera que el mundo se acaba mañana, yo, hoy todavia, plantaria un arbol
+            </blockquote>
+             </div>
+            <div class="section3">
+                <hr>
+                <p>Estas son algunas definiciones de mi trabajo. <dfn title="es el arte de escribir codigos basados en algoritmos para resolver problemas, es el proceso utilizado para idear y ordenar las acciones necesarias para realizar un proyecto,  es el acto de programar, es decir, organizar una secuencia de pasos ordenados a seguir para hacer cierta cosa.">programacion</dfn></p>
+                <hr>
+            </div>
+
+        </div>
+    </div>
+    <div id="footer">
+        <h2>Informacion de Contacto</h2>
+        <br>
+        <p>Email:</p>
+        <a href="mailto:hz17003@ues.edu.sv">hz17003@ues.edu.sv</a>
+        <p>E.S Mail: </p>
+        <p>Departamento de Ingenieria y Arquitectura</p>
+        <p>Universidad de El Salvador</p>
+        <p>San Miguel</p>
+        <p>El Salvador, 503</p>
+    </div>
+</body>
+</html>
